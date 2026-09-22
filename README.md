@@ -26,7 +26,7 @@ Rather than proposing another unlearning algorithm, this work audits how conclus
 The experiments show that these choices can materially change the conclusion drawn about an unlearning method.
 
 <p align="center">
-  <img src="outputs/figures/Figure_1_Evaluation_Framework.png"
+  <img src="outputs/figures/figure_1_Evaluation_Framework.png"
        width="1000"
        alt="Evaluation reliability framework for multimodal machine unlearning">
 </p>
