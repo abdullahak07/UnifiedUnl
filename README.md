@@ -249,29 +249,29 @@ Raw LoRA factors are not uniquely identifiable.
 
 For a LoRA update,
 
-\[
+```math
 \Delta W=\frac{\alpha}{r}BA,
-\]
+```
 
-an invertible transformation \(S\) can produce:
+an invertible transformation $S$ can produce:
 
-\[
+```math
 B'=BS^{-1},
 \qquad
 A'=SA,
-\]
+```
 
 while preserving:
 
-\[
+```math
 B'A'=BA.
-\]
+```
 
-Therefore, Euclidean distances between raw \(A\) and \(B\) factors can change even when the effective model update remains unchanged.
+Therefore, Euclidean distances between raw $A$ and $B$ factors can change even when the effective model update remains unchanged.
 
 For parameter-space reference analysis, we instead compare effective updates:
 
-\[
+```math
 d_{\Delta W}(\widehat{M},M^*)
 =
 \frac{1}{L}
@@ -287,7 +287,7 @@ d_{\Delta W}(\widehat{M},M^*)
 \Delta W_{\ell}^{(M^*)}
 \right\|_F+\epsilon
 }.
-\]
+```
 
 This removes raw-factor reparameterization ambiguity.
 
@@ -301,23 +301,23 @@ The final analysis uses a chance-centered membership-distinguishability measure.
 
 For each checkpoint:
 
-\[
+```math
 \mathrm{BA}
 =
 \frac{\mathrm{TPR}+\mathrm{TNR}}{2},
-\]
+```
 
 and
 
-\[
+```math
 \mathrm{MIA}_{\mathrm{adv}}
 =
-2|\mathrm{BA}-0.5|.
-\]
+2\left|\mathrm{BA}-0.5\right|.
+```
 
 Therefore:
 
-- \(\mathrm{MIA}_{\mathrm{adv}}=0\) corresponds to chance-level performance under the evaluated attack;
+- $\mathrm{MIA}_{\mathrm{adv}}=0$ corresponds to chance-level performance under the evaluated attack;
 - larger values indicate greater membership distinguishability.
 
 The transformation is performed **checkpoint-by-checkpoint before seed averaging**.
@@ -356,7 +356,7 @@ A single scalar ordering requires an externally specified deployment utility.
 
 For sensitivity analysis, the supplementary material includes an illustrative Unified Quality Score (UQS):
 
-\[
+```math
 \mathrm{UQS}
 =
 0.0745(1-\mathrm{FA})
@@ -368,7 +368,7 @@ For sensitivity analysis, the supplementary material includes an illustrative Un
 0.2727e^{-\mathrm{AD}/100}
 +
 0.3028(1-\mathrm{JS}).
-\]
+```
 
 These weights are:
 
