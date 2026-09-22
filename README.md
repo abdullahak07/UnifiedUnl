@@ -339,7 +339,7 @@ p_{\mathrm{exact}}=0.0167.
 The supplementary analysis visualizes the corresponding method means.
 
 <p align="center">
-  <img src="outputs/figures/Figure_S2_AD_JS_Method_Means.png"
+  <img src="outputs/figures/Figure_S2_AD_JS_Method_Means.jpg"
        width="750"
        alt="Method-level activation-distance and Jensen-Shannon concordance">
 </p>
