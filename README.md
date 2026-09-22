@@ -81,7 +81,7 @@ For example:
 Mean rank and rank dispersion are used only as **descriptive summaries**. They do not establish a universally preferred method.
 
 <p align="center">
-  <img src="outputs/figures/Figure_3_Method_Rank_Profiles.png"
+  <img src="outputs/figures/Figure_3_Method_Rank_Profiles.jpg"
        width="850"
        alt="Method rank profiles across evaluation criteria">
 </p>
@@ -112,7 +112,7 @@ At the method level, AD and JS show strong concordance:
 This agreement is interpreted as **cross-space reference consistency**, not external validation, because the reference-based quantities share the same retain-only anchor.
 
 <p align="center">
-  <img src="outputs/figures/Figure_4_Reliability_Audit.png"
+  <img src="outputs/figures/Figure_4_Reliability_Audit.jpg"
        width="850"
        alt="Cross-space reference reliability audit">
 </p>
@@ -159,7 +159,7 @@ Residual target information was therefore detected in **23 of 24** directly supp
 This is a bounded pilot over a finite, non-adaptive probe family. It is **not** an estimate of worst-case adversarial recovery probability.
 
 <p align="center">
-  <img src="outputs/figures/Figure_S1_KR_Pilot.png"
+  <img src="outputs/figures/Figure_S1_KR_Pilot.jpg"
        width="800"
        alt="Knowledge recoverability pilot">
 </p>
